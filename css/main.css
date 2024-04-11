@@ -1,0 +1,123 @@
+.container{
+    width: 100%;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+nav img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 1px;
+    opacity: 100%;
+    filter: brightness(25%);
+}
+
+nav p{
+    margin-left: 5rem;
+    width: 100%;
+    color: white;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    text-align: right;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* body{
+    background-image: url(images/photo-1525824617522-ca036119a052.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    margin-top: 5em;
+    color: white;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 15em;
+    position: relative;
+    justify-items: center;
+}
+
+.card-1{
+    width: 80%;
+    background-color: rgb(46, 46, 46);
+    border-radius: 1em;
+    outline: solid black .2em;
+}
+
+.card-1 h2, p{
+    margin-left: 1em;
+    color: white;
+}
+
+.card-2{
+    width: 80%;
+    background-color: rgb(46, 46, 46);
+    border-radius: 1em;
+    outline: solid black .2em;
+}
+
+.card-2 h2, p{
+    margin-left: 1em;
+    color: white;
+}
+
+button{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    border-radius: .5em;
+}
+
+footer{
+    background-color: rgb(46, 46, 46);
+    margin-top: 5em;
+    padding: 1em 0 1em 0;
+    position: absolute;
+    width: 100%;
+    left: 1px;
+    top: 15em;
+}
+
+footer p{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
